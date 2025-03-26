@@ -173,7 +173,7 @@ for index, row in enumerate(data_dict[1:5]):
         for i, sentence in enumerate(reformulated_list):
             query_temp_reply = {
                 "headers": {
-                    "apikey": "550e8400-e29b-41d4-a716-446655440000" #固定住的
+                    "apikey": "testt" #固定住的
                 },
                 "body": {
                     "asst": temp_assistant_id,
